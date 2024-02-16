@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+      padding: 20px;
+    }
+
+    .custom-form {
+      max-width: 800px;
+      margin: 20px auto;
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn-submit {
+      background-color: #007bff;
+      color: #fff;
+    }
+
+    .btn-reset {
+      background-color: #dc3545;
+      color: #fff;
+    }
+    .ans1,.ans3{
+        margin: 20px;
+        height: 150px;
+        width: 100%;
+        overflow-y: scroll;
+    }
+  </style>
+  <title>javascript assigenments</title>
+</head>
+<body>
+<!-- question 1 -->
+  <div class="custom-form">
+      <div class="form-group">
+        <p><b>q1.</b> Write a JavaScript function that generates all combinations of a string( example : 'dog' → d,do,dog,o,og,g)</p>
+        <input type="text" class="form-control" id="inputque1" placeholder="Enter string">
+      </div>
+      
+        <button type="button" class="btn btn-submit generate1">Generate</button>
+        <button type="button" class="btn btn-reset reset1">Reset</button>
+        <div class="ans1"></div>
+  </div>
+
+  <!-- questuion 2 -->
+  <div class="custom-form">
+      <div class="form-group">
+        <p><b>q2.</b> Write a JavaScript function that accepts a string as a parameter and finds the longest word within the string.(example: 'Web Development Tutorial' → 'Development')</p>
+        <input type="text" class="form-control" id="inputque2" placeholder="Enter string">
+      </div>
+      
+        <button type="button" class="btn btn-submit generate2">Generate</button>
+        <button type="button" class="btn btn-reset reset2">Reset</button>
+        <div class="ans2"></div>
+  </div>
+
+  <!-- question 3 -->
+  <div class="custom-form">
+    <div class="form-group">
+      <p><b>q3.</b> Write a JavaScript function to compute the factors of a positive integer.(example : factor(15) → [1,3,5,15])</p>
+      <input type="number" class="form-control" id="inputque3" placeholder="Enter string">
+    </div>
+    
+      <button type="button" class="btn btn-submit generate3">Generate</button>
+      <button type="button" class="btn btn-reset reset3">Reset</button>
+      <div class="ans3"></div>
+</div>
+
+<!-- question 4 -->
+<div class="custom-form">
+    <div class="form-group">
+      <p><b>q4.</b> Write a JavaScript function to find the first not repeated character.(example: 'abacddbec' → ‘e’)</p>
+      <input type="text" class="form-control" id="inputque4" placeholder="Enter string">
+    </div>
+    
+      <button type="button" class="btn btn-submit generate4">Generate</button>
+      <button type="button" class="btn btn-reset reset4">Reset</button>
+      <div class="ans4"></div>
+</div>
+
+<!-- question 5 -->
+<div class="custom-form">
+    <div class="form-group">
+      <p><b>q6.</b> Write a JavaScript function that reverses a number (example: 32243 → 34223)
+      </p>
+      <input type="number" class="form-control" id="inputque6" placeholder="Enter string">
+    </div>
+    
+      <button type="button" class="btn btn-submit generate6">Generate</button>
+      <button type="button" class="btn btn-reset reset6">Reset</button>
+      <div class="ans6"></div>
+</div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="./index.js"></script>
+</body>
+</html>
